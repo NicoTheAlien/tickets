@@ -13,8 +13,8 @@ public class Zona {
 	public static boolean isMenu() {
 		return menu;
 	}
-	public void setMenu(boolean menu) {
-		this.menu = menu;
+	public static void setMenu(boolean newmenu) {
+		menu = newmenu;
 	}
 	public Zona(int n) {
 		this.entradesPerVendre = n;
